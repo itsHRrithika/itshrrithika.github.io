@@ -55,7 +55,7 @@
     }, false);
 
     // Age since Sep 26,1995 (countUp)
-    const ageTarget = new Date(2001,4,9,0,0,0);
+    const ageTarget = new Date(2001,3,9,0,0,0);
     startTimer(ageTarget,{
       days:document.getElementById('ageDays'),
       hours:document.getElementById('ageHours'),
